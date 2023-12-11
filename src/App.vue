@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-   <CursorFollower/>
+   <ExpandingPanels/>
   </div>
 </template>
 
 <script>
-import CursorFollower from "@/components/CursorFollower.vue"
+import ExpandingPanels from "@/components/ExpandingPanels.vue"
 export default {
   data() {
     return {
@@ -13,7 +13,7 @@ export default {
     };
   },
   components:{
-    CursorFollower
+    ExpandingPanels
   }
 };
 </script>
